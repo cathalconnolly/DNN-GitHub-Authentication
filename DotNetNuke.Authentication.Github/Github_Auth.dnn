@@ -1,0 +1,74 @@
+<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="DNN_GithubAuthentication" type="Auth_System" version="07.01.02">
+      <friendlyName>DNN Github Authentication Project</friendlyName>
+      <description>
+        The DNN Github Authentication Project is an Authentication provider for DNN that uses
+        Github's OAUTH2 authentication to authenticate users.
+      </description>
+      <owner>
+        <name>DNN Corporation</name>
+        <organization>DNN Corporation</organization>
+        <url>www.dnnsoftware.com</url>
+        <email>support@dnnsoftware.com</email>
+      </owner>
+      <license src="license.txt" />
+      <releaseNotes src="releasenotes.txt" />
+      <azureCompatible>true</azureCompatible>
+      <dependencies>
+        <dependency type="CoreVersion">05.00.00</dependency>
+      </dependencies>
+      <components>
+        <component type="AuthenticationSystem">
+          <authenticationService>
+            <type>Live</type>
+            <settingsControlSrc>DesktopModules/AuthenticationServices/Github/Settings.ascx</settingsControlSrc>
+            <loginControlSrc>DesktopModules/AuthenticationServices/Github/Login.ascx</loginControlSrc>
+            <logoffControlSrc/>
+          </authenticationService>
+        </component>
+        <component type="Assembly">
+          <assemblies>
+            <assembly>
+              <path>bin</path>
+              <name>DotNetNuke.Authentication.Github.dll</name>
+            </assembly>
+          </assemblies>
+        </component>
+        <component type="File">
+          <files>
+            <basePath>DesktopModules/AuthenticationServices/Github</basePath>
+            <file>
+              <path>App_LocalResources</path>
+              <name>Login.ascx.resx</name>
+            </file>
+            <file>
+              <path>App_LocalResources</path>
+              <name>Settings.ascx.resx</name>
+            </file>
+            <file>
+              <path>Images</path>
+              <name>live_16X16.jpg</name>
+            </file>
+            <file>
+              <path>Images</path>
+              <name>live_32X32.jpg</name>
+            </file>
+            <file>
+              <name>Login.ascx</name>
+            </file>
+            <file>
+              <name>Settings.ascx</name>
+            </file>
+            <file>
+              <name>license.txt</name>
+            </file>
+            <file>
+              <name>releasenotes.txt</name>
+            </file>
+          </files>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>

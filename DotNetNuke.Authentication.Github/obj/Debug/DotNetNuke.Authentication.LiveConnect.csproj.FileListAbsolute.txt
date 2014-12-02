@@ -1,0 +1,6 @@
+C:\websites\DotNetNuke_Community_07.01.02_Source\DNN Platform\Providers\AuthenticationProviders\DotNetNuke.Authentication.LiveConnect\bin\DotNetNuke.Authentication.LiveConnect.XML
+C:\websites\DotNetNuke_Community_07.01.02_Source\DNN Platform\Providers\AuthenticationProviders\DotNetNuke.Authentication.LiveConnect\bin\DotNetNuke.Authentication.LiveConnect.dll
+C:\websites\DotNetNuke_Community_07.01.02_Source\DNN Platform\Providers\AuthenticationProviders\DotNetNuke.Authentication.LiveConnect\bin\DotNetNuke.Authentication.LiveConnect.pdb
+C:\websites\DotNetNuke_Community_07.01.02_Source\DNN Platform\Providers\AuthenticationProviders\DotNetNuke.Authentication.LiveConnect\obj\Debug\DotNetNuke.Authentication.LiveConnect.csprojResolveAssemblyReference.cache
+C:\websites\DotNetNuke_Community_07.01.02_Source\DNN Platform\Providers\AuthenticationProviders\DotNetNuke.Authentication.LiveConnect\obj\Debug\DotNetNuke.Authentication.LiveConnect.dll
+C:\websites\DotNetNuke_Community_07.01.02_Source\DNN Platform\Providers\AuthenticationProviders\DotNetNuke.Authentication.LiveConnect\obj\Debug\DotNetNuke.Authentication.LiveConnect.pdb

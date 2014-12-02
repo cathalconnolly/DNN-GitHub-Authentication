@@ -1,0 +1,6 @@
+C:\websites\DotNetNuke_Community_07.01.02_Source\DNN Platform\Providers\AuthenticationProviders\DotNetNuke.Authentication.Github\obj\Debug\DotNetNuke.Authentication.Github.csprojResolveAssemblyReference.cache
+C:\websites\DotNetNuke_Community_07.01.02_Source\DNN Platform\Providers\AuthenticationProviders\DotNetNuke.Authentication.Github\bin\DotNetNuke.Authentication.Github.XML
+C:\websites\DotNetNuke_Community_07.01.02_Source\DNN Platform\Providers\AuthenticationProviders\DotNetNuke.Authentication.Github\bin\DotNetNuke.Authentication.Github.dll
+C:\websites\DotNetNuke_Community_07.01.02_Source\DNN Platform\Providers\AuthenticationProviders\DotNetNuke.Authentication.Github\bin\DotNetNuke.Authentication.Github.pdb
+C:\websites\DotNetNuke_Community_07.01.02_Source\DNN Platform\Providers\AuthenticationProviders\DotNetNuke.Authentication.Github\obj\Debug\DotNetNuke.Authentication.Github.dll
+C:\websites\DotNetNuke_Community_07.01.02_Source\DNN Platform\Providers\AuthenticationProviders\DotNetNuke.Authentication.Github\obj\Debug\DotNetNuke.Authentication.Github.pdb

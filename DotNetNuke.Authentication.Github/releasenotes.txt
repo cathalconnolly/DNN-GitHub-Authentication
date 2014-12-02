@@ -1,0 +1,1 @@
+This is the initial release of the Github Authentication provider created as a demo for the DNN book.
