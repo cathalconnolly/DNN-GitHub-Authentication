@@ -57,17 +57,22 @@ namespace DotNetNuke.Authentication.Github.Components
 
         protected override TimeSpan GetExpiry(string responseText)
         {
-            var jsonSerializer = new JavaScriptSerializer();
-            var tokenDictionary = jsonSerializer.DeserializeObject(responseText) as Dictionary<string, object>;
+            int seconds;
+            if (int.TryParse(
+                HttpUtility.ParseQueryString(responseText)["expires_in"],
+                NumberStyles.Integer,
+                CultureInfo.InvariantCulture,
+                out seconds))
+            {
+                return TimeSpan.FromSeconds(seconds);
+            }
 
-            return new TimeSpan(0, 0, Convert.ToInt32(tokenDictionary["expires_in"]));
+            return TimeSpan.MinValue;
         }
 
         protected override string GetToken(string responseText)
         {
-            var jsonSerializer = new JavaScriptSerializer();
-            var tokenDictionary = jsonSerializer.DeserializeObject(responseText) as Dictionary<string, object>;
-            return Convert.ToString(tokenDictionary["access_token"]);
+            return HttpUtility.ParseQueryString(responseText)["access_token"];
         }
     }
 }
