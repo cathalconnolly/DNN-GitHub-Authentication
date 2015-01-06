@@ -21,7 +21,7 @@
       <components>
         <component type="AuthenticationSystem">
           <authenticationService>
-            <type>Live</type>
+            <type>Github</type>
             <settingsControlSrc>DesktopModules/AuthenticationServices/Github/Settings.ascx</settingsControlSrc>
             <loginControlSrc>DesktopModules/AuthenticationServices/Github/Login.ascx</loginControlSrc>
             <logoffControlSrc/>
