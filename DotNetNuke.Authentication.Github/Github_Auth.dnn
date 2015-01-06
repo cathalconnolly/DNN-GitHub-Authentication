@@ -21,7 +21,7 @@
       <components>
         <component type="AuthenticationSystem">
           <authenticationService>
-            <type>Live</type>
+            <type>Github</type>
             <settingsControlSrc>DesktopModules/AuthenticationServices/Github/Settings.ascx</settingsControlSrc>
             <loginControlSrc>DesktopModules/AuthenticationServices/Github/Login.ascx</loginControlSrc>
             <logoffControlSrc/>
@@ -48,11 +48,11 @@
             </file>
             <file>
               <path>Images</path>
-              <name>live_16X16.jpg</name>
+              <name>github-10-16.jpg</name>
             </file>
             <file>
               <path>Images</path>
-              <name>live_32X32.jpg</name>
+              <name>github-10-32.jpg</name>
             </file>
             <file>
               <name>Login.ascx</name>
